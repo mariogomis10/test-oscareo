@@ -1,0 +1,3 @@
+Reporting Pypi 15 derniers jours -> https://lookerstudio.google.com/reporting/71ffccbe-da32-4427-8257-7b130d1e84d0
+
+Reporting Pypi sur une selection de 24h -> https://lookerstudio.google.com/reporting/f85eb6c3-3e58-4e05-af40-6ebec6cd99d5
