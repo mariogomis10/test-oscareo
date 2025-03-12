@@ -1,0 +1,47 @@
+[
+    {
+      "name": "timestamp",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "country_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "project",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "version",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "dependencies",
+      "mode": "REPEATED",
+      "type": "STRING"
+    },
+    {
+      "name": "dependencies_count",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "size_mb",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "size_gb",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "path",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]
