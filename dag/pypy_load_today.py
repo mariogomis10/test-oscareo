@@ -12,7 +12,7 @@ default_args = {
     'retries': 1,
 }
 
-ENDPOINT_URL = "https://test-oscareo-service-749045337548.europe-west1.run.app/load-pypi-current-day"
+ENDPOINT_URL = "https://test-oscareo-service-749045337548.us-central1.run.app/load-pypi-current-day"
 
 def call_endpoint(**kwargs):
     """

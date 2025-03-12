@@ -35,7 +35,7 @@ async def load_pypi_data():
     try:
         # Chargement de la config et de la requête
         config = load_config()
-        query = load_query('load_pypi_last_15_days.sql')
+        query = load_query('sql/load_pypi_last_15_days.sql')
         
         destination_table = config["destination_table"]
 
@@ -68,7 +68,7 @@ async def load_pypi_current_day():
     """
     try:
         config = load_config()
-        query = load_query('load_pypi_current_day.sql')
+        query = load_query('sql/load_pypi_current_day.sql')
 
         current_date = datetime.now().strftime("%Y%m%d")
         # Changement en .json avec * pour generer plusieur fichiers si besion
